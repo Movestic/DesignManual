@@ -15,7 +15,7 @@ nav
     h1
     {
         color: $light-gray;
-        font-family: $mainFont;
+        font-family: $headingFont;
         margin-bottom: 70px;
     }
 
@@ -24,7 +24,7 @@ nav
         display: block;
         color: $light-gray;
 
-        font-family: "ProximaNova";
+        font-family: $mainFont;
         font-size: 13px;
         margin-top: $nav-bar-item-gutter;
         margin-bottom: $nav-bar-item-gutter;
