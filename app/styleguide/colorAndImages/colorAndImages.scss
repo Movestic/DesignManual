@@ -2,12 +2,14 @@
 
 $largeColorBoxSize: 100px;
 $smallColorBoxSize: 75px;
+$hexTextHeigh: 20px;
+
 
 @mixin color-box($color, $large) {
     background-color: $color;
     display: inline-block;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: $hexTextHeigh;
 
     position: relative;
 
@@ -36,7 +38,7 @@ $smallColorBoxSize: 75px;
     &::after {
         content: "" + $color;
         position: absolute;
-        bottom: -20px;
+        bottom: -1 * $hexTextHeigh;
         font-size: 1em;
     }
 }
@@ -80,7 +82,6 @@ $smallColorBoxSize: 75px;
             @include color-box(nth($additionalColors, $i), false);
         }
     }
-
 }
 
 .warning
