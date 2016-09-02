@@ -1,0 +1,44 @@
+@import "style/movestic/main";
+
+$nav-bar-item-gutter: 30px;
+
+nav
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    background-color: $black;
+    padding: 30px;
+
+    h1
+    {
+        color: $light-gray;
+        font-family: "ArcherBold";
+        margin-bottom: 70px;
+    }
+
+    a
+    {
+        display: block;
+        color: $light-gray;
+
+        font-family: "ProximaNova";
+        font-size: 13px;
+        margin-top: $nav-bar-item-gutter;
+        margin-bottom: $nav-bar-item-gutter;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &.active
+        {
+            color: $orange;
+        }
+
+        &:hover
+        {
+            color: $orange;
+        }
+    }
+}
