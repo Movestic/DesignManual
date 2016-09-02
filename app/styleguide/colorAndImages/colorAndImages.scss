@@ -10,23 +10,27 @@ $smallColorBoxSize: 75px;
 
     position:relative;
 
+    $boxSize: 0px;
+
     @if($large == true)
     {
-        width: $largeColorBoxSize;
-        height: $largeColorBoxSize;
+        $boxSize: $largeColorBoxSize;
     }
 
     @if($large == false)
     {
-        width: $smallColorBoxSize;
-        height: $smallColorBoxSize;
+        $boxSize: $smallColorBoxSize;
     }
 
-
-    @if($color == #ffffff)
+    @if(lightness($color) > 90)
     {
-        border: 1px solid $black;
+        $borderWidth: 1px;
+        border: $borderWidth solid $black;
+        $boxSize: $boxSize - ($borderWidth*2);
     }
+
+    width: $boxSize;
+    height: $boxSize;
 
     &::after {
         content: "" + $color;

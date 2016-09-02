@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    templateUrl: 'app/styleguide/colorAndImages/colorAndImages.html',
-    styleUrls: ['styles/@app/styleguide/colorAndImages/colorAndImages.css']
+    templateUrl: 'app/styleguide/colorAndImages/colorAndImages.html'
 })
 export class ColorAndImagesComponent implements OnInit {
 

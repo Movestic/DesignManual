@@ -3,8 +3,7 @@ import {NavigationBarItem} from "./navigationBarItem";
 
 @Component({
     selector: 'navigation',
-    templateUrl: 'app/navigation/navigation.html',
-    styleUrls: ['styles/@app/navigation/navigation.css']
+    templateUrl: 'app/navigation/navigation.html'
 })
 export class NavigationComponent implements OnInit {
     constructor() { }
