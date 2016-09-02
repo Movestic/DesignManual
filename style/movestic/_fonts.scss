@@ -17,3 +17,37 @@
     font-family: "ProximaNovaBold";
     src: url("/fonts/Proxima Nova Bold.otf") format("opentype");
 }
+
+$headingFont: "ArcherBold";
+$alternativeHeadingFont: "ArcherBook";
+$mainFont: "ProximaNova";
+
+h1, .h1
+{
+    font-family: $headingFont;
+    font-size: 34px;
+}
+
+h2, .h2
+{
+    font-family: $headingFont;
+    font-size: 22px;
+}
+
+h3, .h3
+{
+    font-family: $alternativeHeadingFont;
+    font-size: 18px;
+}
+
+h4, .h4
+{
+    font-family: $mainFont;
+    font-size: 19px;
+}
+
+html
+{
+    font-family: $mainFont;
+    font-size: 14px;
+}

@@ -1,0 +1,92 @@
+@import "style/movestic/main";
+
+$largeColorBoxSize: 100px;
+$smallColorBoxSize: 75px;
+
+@mixin color-box($color, $large) {
+    background-color: $color;
+    display: inline-block;
+    margin-right: 20px;
+
+    position:relative;
+
+    $boxSize: 0px;
+
+    @if($large == true)
+    {
+        $boxSize: $largeColorBoxSize;
+    }
+
+    @if($large == false)
+    {
+        $boxSize: $smallColorBoxSize;
+    }
+
+    @if(lightness($color) > 90)
+    {
+        $borderWidth: 1px;
+        border: $borderWidth solid $black;
+        $boxSize: $boxSize - ($borderWidth*2);
+    }
+
+    width: $boxSize;
+    height: $boxSize;
+
+    &::after {
+        content: "" + $color;
+        position: absolute;
+        bottom: -20px;
+        font-size: 1em;
+    }
+}
+
+.color-box
+{
+    &.orange {
+        @include color-box($orange, true);
+    }
+
+    &.black {
+        @include color-box($black, true);
+    }
+
+    &.gray {
+        @include color-box($gray, true);
+    }
+
+    &.light-gray {
+        @include color-box($light-gray, true);
+    }
+
+    &.white {
+        @include color-box($white, true);
+    }
+
+    &.blue {
+        @include color-box($blue, true);
+    }
+
+    &.green {
+        @include color-box($green, true);
+    }
+
+    &.red {
+        @include color-box($red, true);
+    }
+
+    @for $i from 1 through 8 {
+        &.additionalColor#{$i} {
+            @include color-box(nth($additionalColors, $i), false);
+        }
+    }
+
+}
+
+.warning
+{
+    color: $red;
+
+    &::before{
+        content: "*";
+    }
+}

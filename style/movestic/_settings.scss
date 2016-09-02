@@ -2,7 +2,7 @@ $orange: #F17E00;
 $black: #2B3033;
 $gray: #E9E9E9;
 $light-gray: #F6F6F6;
-$white: #FFF;
+$white: #FFFFFF;
 
 $blue: #1E9CCA;
 $green: #91C54D;
@@ -16,4 +16,11 @@ $additionalColor5: #24BA87;
 $additionalColor6: #45A125;
 $additionalColor7: #F8D721;
 $additionalColor8: #F65720;
+
+
+$primaryColors: $orange, $black, $gray, $light-gray, $white;
+
+$complementaryColors: $blue, $green, $red;
+
+$additionalColors: $additionalColor1, $additionalColor2, $additionalColor3, $additionalColor4, $additionalColor5, $additionalColor6, $additionalColor7,$additionalColor8;
 
