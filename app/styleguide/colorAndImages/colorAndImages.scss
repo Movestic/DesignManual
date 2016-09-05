@@ -2,10 +2,10 @@
 
 $largeColorBoxSize: 100px;
 $smallColorBoxSize: 75px;
+$xsmallColorBoxSize: 50px;
 $hexTextHeigh: 20px;
 
-
-@mixin color-box($color, $large) {
+@mixin color-box($color) {
     background-color: $color;
     display: inline-block;
     margin-right: 20px;
@@ -15,14 +15,21 @@ $hexTextHeigh: 20px;
 
     $boxSize: 0px;
 
-    @if($large == true)
-    {
-        $boxSize: $largeColorBoxSize;
+    &.large {
+        width: $largeColorBoxSize;
+        height: $largeColorBoxSize;
     }
 
-    @if($large == false)
-    {
-        $boxSize: $smallColorBoxSize;
+    &.small {
+
+        width: $smallColorBoxSize;
+        height: $smallColorBoxSize;
+    }
+
+    &.x-small {
+
+        width: $xsmallColorBoxSize;
+        height: $xsmallColorBoxSize;
     }
 
     @if(lightness($color) > 90)
@@ -32,8 +39,6 @@ $hexTextHeigh: 20px;
         $boxSize: $boxSize - ($borderWidth*2);
     }
 
-    width: $boxSize;
-    height: $boxSize;
 
     &::after {
         content: "" + $color;
@@ -46,40 +51,40 @@ $hexTextHeigh: 20px;
 .color-box
 {
     &.orange {
-        @include color-box($orange, true);
+        @include color-box($orange);
     }
 
     &.black {
-        @include color-box($black, true);
+        @include color-box($black);
     }
 
     &.gray {
-        @include color-box($gray, true);
+        @include color-box($gray);
     }
 
     &.light-gray {
-        @include color-box($light-gray, true);
+        @include color-box($light-gray);
     }
 
     &.white {
-        @include color-box($white, true);
+        @include color-box($white);
     }
 
     &.blue {
-        @include color-box($blue, true);
+        @include color-box($blue);
     }
 
     &.green {
-        @include color-box($green, true);
+        @include color-box($green);
     }
 
     &.red {
-        @include color-box($red, true);
+        @include color-box($red);
     }
 
     @for $i from 1 through 8 {
         &.additionalColor#{$i} {
-            @include color-box(nth($additionalColors, $i), false);
+            @include color-box(nth($additionalColors, $i));
         }
     }
 }

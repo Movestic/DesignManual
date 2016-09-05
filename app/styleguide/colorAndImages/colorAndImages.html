@@ -1,21 +1,22 @@
-<h1>Färg och bilder</h1>
+<h1>
+    Färg och bilder</h1>
 
-<h2>Färger</h2>
-<p>
-    För att säkerställa Movestics identitet är det viktigt att färgerna balanseras rätt. De primära färgerna ska alltid ha ett
-    övertag i fördelning, medan komplementfärger endast skall användas som färgklickar. Komplementfärger får aldrig ta överhand
-    i en layout.
-</p>
-<p class="warning">
-    Tilläggsfärger bör endast användas när komplementfärger inte går att använda och bör användas ytterst sällan.
-</p>
+<div class="section">
+    <ul>
+        <li>
+            <a href="#">Färger</a>
+        </li>
+        <li>
+            <a href="#">Regler & användning</a>
+        </li>
+        <li>
+            <a href="#">Bildbibliotek</a>
+        </li>
+    </ul>
+</div>
 
-<h3>Primära färger</h3>
+<color-codes id="color-codes" class="section"></color-codes>
 
-<div *ngFor="let color of primaryColors" class="color-box large {{color}}"></div>
+<color-rules id="color-rules" class="section"></color-rules>
 
-<h3>Komplementfärger</h3>
-<div *ngFor="let color of complementaryColors" class="color-box large {{color}}"></div>
-
-<h3>Tilläggsfärger</h3>
-<div *ngFor="let color of additionalColors" class="color-box small {{color}}"></div>
+<image-library id="image-library" class="section no-border"></image-library>
