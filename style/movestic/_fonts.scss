@@ -27,28 +27,56 @@ h1, .h1
 {
     font-family: $headingFont;
     font-size: 34px;
+    color:#000000;
 }
 
 h2, .h2
 {
     font-family: $headingFont;
     font-size: 22px;
+    color:#000000;
 }
 
 h3, .h3
 {
     font-family: $alternativeHeadingFont;
     font-size: 18px;
+    font-weight: normal;
+    color:#000000;
 }
 
 h4, .h4
 {
     font-family: $mainFont;
     font-size: 19px;
+    font-weight: normal;
+    color:#000000;
+    letter-spacing: 0.05rem;
+       
 }
-
+h5, .h5
+{
+    font-family: $mainFontBold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+h6, .h6, th, .th
+{
+    font-family: $mainFontBold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+table span, ul span{
+    font-family: $mainFont;
+    font-size: 13px;
+    letter-spacing: 0.05rem;
+}
 html
 {
     font-family: $mainFont;
-    font-size: 14px;
+    font-size: 15px;
+    color:#636363;
+    letter-spacing: 0.05rem;
 }

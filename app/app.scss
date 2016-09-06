@@ -1,6 +1,7 @@
 @import "style/movestic/main";
 @import "app/navigation/navigation";
 @import "app/styleguide/colorAndImages/colorAndImages";
+@import "app/styleguide/typography/typography";
 
 main
 {
@@ -8,7 +9,6 @@ main
     padding: 30px 40px;
     max-width: 800px;
 }
-
 $sectionBorder: 2px solid $gray;
 
 .section

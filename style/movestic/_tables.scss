@@ -1,0 +1,20 @@
+@import "_settings";
+table{
+    border: 1px solid $gray;
+
+    th{
+        text-align: left;
+        padding: 10px;
+        height: 44px;
+        color: #636363;
+        vertical-align: top;
+    }
+    button{
+        border: none;
+        height: 44px;
+        font-family: $mainFontBold;
+        font-size: 13px;
+        letter-spacing: 0.05rem;
+        background-color: $white;
+    }
+}
