@@ -1,20 +1,24 @@
 @import "_settings";
 table{
     border: 1px solid $gray;
-
+    border-spacing: 0px;
     th{
         text-align: left;
         padding: 10px;
         height: 44px;
-        color: #636363;
+        color: $fontColorGray;
         vertical-align: top;
     }
-    button{
-        border: none;
-        height: 44px;
-        font-family: $mainFontBold;
-        font-size: 13px;
-        letter-spacing: 0.05rem;
-        background-color: $white;
+    tr{
+        &:nth-child(even) td, &:nth-child(even) button{
+            background-color: $listAlternatingRowColor;
+        }
+    }
+    td{
+        border-top: 1px solid $listBorderColor;
+        border-left: 1px solid $listBorderColor;
+        &:first-child{
+            border-left: none;
+        }
     }
 }

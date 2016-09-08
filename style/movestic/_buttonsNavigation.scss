@@ -1,0 +1,74 @@
+@import "_settings";
+
+ button
+ {
+    border: none;
+    color: $fontColorGray;
+    height: 44px;
+    font-family: $mainFontBold;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.orangeButton
+{
+    background: $buttonColorOrange;
+    color: $white;
+    &:hover{
+        opacity: 0.8;
+    }
+    .deactive{
+        opacity: 0.4;
+    }
+}
+
+.whiteButton
+{
+    background: $white;
+    color: $light-gray;
+    border: 1px solid $light-gray;
+    &:hover{
+        color: $light-gray;
+        opacity: 0.4;
+    }
+    .deactive{
+        color: $light-gray;
+        opacity: 0.2;
+    }
+}
+.grayButton{
+    background: $white;
+    color: $light-gray;
+    border: 1px solid $light-gray;
+    &:hover{
+        opacity: 0.4;
+    }
+    .deactive{
+        opacity: 0.2;
+    }
+}
+.blueButton{
+    background: $blue;
+    color: $white;
+    &:hover{
+        opacity: 0.8;
+    }
+    .deactive{
+        opacity: 0.4;
+    }
+}
+.complementaryButtonGrayText
+{
+    background: $white;
+    &:hover{
+        opacity: 0.8;
+    }
+    .deactive{
+        opacity: 0.3;
+    }
+}
+.complementaryButtonOrangeText
+{
+
+}
