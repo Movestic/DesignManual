@@ -4,7 +4,7 @@ var plugins = require("gulp-load-plugins")({ lazy: false });
 var del = require("del");
 
 var WEB_ROOT = "./wwwroot";
-var APP_STYLES = ["./styles/**/*.scss", "./app/**/*.scss"];
+var APP_STYLES = ["./style/**/*.scss", "./app/**/*.scss"];
 var INDEX_PAGE = "./app/index.html";
 var HTML_PAGES = ["app/**/*.html", "!app/index.html"];
 var FONTS = ["./fonts/*.ttf", "./fonts/*.otf"];

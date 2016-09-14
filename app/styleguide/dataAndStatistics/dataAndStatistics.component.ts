@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import {RulesComponent} from './rules/rules.component'
 @Component({
-    templateUrl: 'app/styleguide/dataAndStatistics/dataAndStatistics.html'
+    templateUrl: 'app/styleguide/dataAndStatistics/dataAndStatistics.html',
+    directives:[RulesComponent]
 })
 export class DataAndStatisticsComponent implements OnInit {
-    constructor() { }
+    constructor() {
+         console.log("test");
+    }
 
     ngOnInit() {
     }

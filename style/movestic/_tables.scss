@@ -10,15 +10,36 @@ table{
         vertical-align: top;
     }
     tr{
-        &:nth-child(even) td, &:nth-child(even) button{
-            background-color: $listAlternatingRowColor;
+        &:nth-child(even) {
+            td, button {
+                background-color: $listAlternatingRowColor;
+            }
         }
-    }
-    td{
-        border-top: 1px solid $listBorderColor;
-        border-left: 1px solid $listBorderColor;
-        &:first-child{
-            border-left: none;
+        td{
+            border-top: 1px solid $listBorderColor;
+            border-left: 1px solid $listBorderColor;
+            &:first-child{
+                border-left: none;
+            }
+            span{
+                padding: 10px;
+                display: inline-block;
+                &.amount{
+                    &:after{
+                        content: " kr";
+                    }
+                }
+                &.percent{
+                    &:after{
+                        content: "%";
+                    }
+                }
+            }
+            button{
+                height: 100%;
+                min-height: 44px;
+                padding: 0px 10px;
+            }
         }
     }
 }

@@ -7,10 +7,9 @@ main
 {
     margin-left: 300px;
     padding: 30px 40px;
-    max-width: 800px;
+    max-width: 1000px;
 }
 $sectionBorder: 2px solid $gray;
-
 .section
 {
     & > * {
