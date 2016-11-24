@@ -7,4 +7,5 @@ The part you'll be interested in is located in `/style` where you will find all 
 Execute the following commands from the root
 
 * `npm install`
+* `gulp build`
 * `(cd wwwroot && lite-server)`
