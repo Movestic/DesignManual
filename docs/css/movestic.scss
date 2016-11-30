@@ -1,0 +1,168 @@
+---
+---
+
+$gray-dark:#2B3033;
+
+@import 'foundation';
+@include foundation-everything;
+
+code{
+    display: block;
+}
+
+.navigation{
+    background-color:$gray-dark;
+    color:white;
+    height:100vh;
+    width:240px;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('http://www.movestic.se/Content/fonts/proximanova-bold-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/proximanova-bold-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/proximanova-bold-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/proximanova-bold-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('http://www.movestic.se/Content/fonts/proximanova-light-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/proximanova-light-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/proximanova-light-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/proximanova-light-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/proximanova-light-webfont.svg#proxima_novalight') format("svg");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('http://www.movestic.se/Content/fonts/proximanova-regular-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/proximanova-regular-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/proximanova-regular-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/proximanova-regular-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('http://www.movestic.se/Content/fonts/proximanova-semibold-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/proximanova-semibold-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/proximanova-semibold-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/proximanova-semibold-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Archer';
+    src: url('http://www.movestic.se/Content/fonts/archer-bold-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/archer-bold-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/archer-bold-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/archer-bold-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/archer-bold-webfont.svg#archerbold') format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Archer';
+    src: url('http://www.movestic.se/Content/fonts/archer-book-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/archer-book-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/archer-book-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/archer-book-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/archer-book-webfont.svg#archerbook') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Archer';
+    src: url('http://www.movestic.se/Content/fonts/archer-light-pro-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/archer-light-pro-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/archer-light-pro-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/archer-light-pro-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/archer-light-pro-webfont.svg#archerlight') format("svg");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Archer';
+    src: url('http://www.movestic.se/Content/fonts/archer-semibold-webfont.eot');
+    src: url('http://www.movestic.se/Content/fonts/archer-semibold-webfont.eot?#iefix') format("embedded-opentype"), url('http://www.movestic.se/Content/fonts/archer-semibold-webfont.woff') format("woff"), url('http://www.movestic.se/Content/fonts/archer-semibold-webfont.ttf') format("truetype"), url('http://www.movestic.se/Content/fonts/archer-semibold-webfont.svg#archersemibold') format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+h1, .h1
+{
+    font-family: "Archer";
+    font-weight:bold;
+    font-size: 2.42857rem;
+    color:#000000;
+}
+
+h2, .h2
+{
+    font-family: "Archer";
+    font-weight:bold;
+    font-size: 1.57rem;
+    color:#000000;
+}
+
+h3, .h3
+{
+    font-family: "Archer";
+    font-size: 1.285rem;
+    font-weight: normal;
+    color:#000000;
+}
+
+h4, .h4
+{
+    font-family: "Proxima Nova";
+    font-size: 1.3571rem;
+    font-weight: normal;
+    color:#000000;
+    letter-spacing: 0.05rem;
+}
+
+h5, .h5
+{
+    font-family: "Proxima Nova";
+    font-weight:bold;
+    font-size: 0.928571rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+h6, .h6, th, .th
+{
+    font-family: "Proxima Nova";
+    font-weight:bold;
+    font-size: 0.85714rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+table span, ul span{
+    font-family: "Proxima Nova";
+    font-size: 0.928571rem; 
+}
+
+html, body, table
+{
+    font-family: "Proxima Nova";
+    font-size: 1em;
+    color: #636363;
+}
+
+nav{
+    margin:2em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing:0.15em;
+    ul{
+        list-style: none;
+
+        li{
+            margin:1em 0;
+        }
+    }
+}

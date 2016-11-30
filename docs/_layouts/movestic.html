@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/movestic.css">
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    <div class="expanded row">
+        <div class="small-3 columns navigation">
+            [LOGO] 
+            <nav>
+                <ul>
+                    {% for page in site.pages %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                     
+                    {% endfor %}
+                    
+                    <li><a>En länk</a></li>
+                    <li><a>En länk</a></li>
+                    <li><a>En länk</a></li>
+                    <li><a>En länk</a></li>
+                    <li><a>En länk</a></li>
+                    <li><a>En länk</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="small-9 columns">{{ content }}</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
