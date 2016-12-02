@@ -12,19 +12,14 @@
 <body>
     <div class="expanded row">
         <div class="small-3 columns navigation">
-            [LOGGO]
+            <div>
+                <img src="{{site.baseurl}}/img/movesticlogo.png" />
+            </div>
             <nav>
                 <ul>
                     {% for page in site.pages %}
                     <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
                     {% endfor %}
-                    
-                    <li><a>En länk</a></li>
-                    <li><a>En länk</a></li>
-                    <li><a>En länk</a></li>
-                    <li><a>En länk</a></li>
-                    <li><a>En länk</a></li>
-                    <li><a>En länk</a></li>
                 </ul>
             </nav>
         </div>
