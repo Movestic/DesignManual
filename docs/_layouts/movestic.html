@@ -12,12 +12,11 @@
 <body>
     <div class="expanded row">
         <div class="small-3 columns navigation">
-            [LOGGO] 
+            [LOGGO] {{ site.baseurl }}
             <nav>
                 <ul>
                     {% for page in site.pages %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                     
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
                     {% endfor %}
                     
                     <li><a>En länk</a></li>
