@@ -12,8 +12,8 @@ $orange:#F17E00;
     padding:2em;
 }
 
-code{
-    display: block;
+.content{
+    padding-top:2em;
 }
 
 .navigation{
@@ -21,6 +21,11 @@ code{
     color:white;
     height:100vh;
     width:240px;
+}
+
+
+code{
+    display: block;
 }
 
 @font-face {
