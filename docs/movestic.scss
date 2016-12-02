@@ -21,6 +21,22 @@ $orange:#F17E00;
     color:white;
     height:100vh;
     width:240px;
+
+    nav{
+        margin:2em;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing:0.15em;
+        ul{
+            list-style: none;
+            margin:0;
+
+            li{
+                margin:1em 0;
+            }
+        }
+    }
 }
 
 
@@ -161,19 +177,4 @@ html, body, table
     font-family: "Proxima Nova";
     font-size: 1em;
     color: #636363;
-}
-
-nav{
-    margin:2em;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing:0.15em;
-    ul{
-        list-style: none;
-
-        li{
-            margin:1em 0;
-        }
-    }
 }
