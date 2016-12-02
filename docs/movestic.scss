@@ -2,9 +2,15 @@
 ---
 
 $gray-dark:#2B3033;
+$orange:#F17E00;
 
 @import 'foundation';
 @include foundation-everything;
+
+.logo{
+    background-color: $orange;
+    padding:2em;
+}
 
 code{
     display: block;
