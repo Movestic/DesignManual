@@ -4,5 +4,15 @@ title: 'Data och statistik'
 ---
 
 # Data och statistik
-
-Detta är innehåll för Data och statistik etc
+  
+## Listor
+![]({{site.baseurl}}/img/tabelllista1.png)  
+![]({{site.baseurl}}/img/tabelllista2.png)
+  
+## Tabeller  
+![]({{site.baseurl}}/img/tabelllista3.png)  
+![]({{site.baseurl}}/img/tabelllista4.png)
+![]({{site.baseurl}}/img/tabelllista5.png)  
+  
+## Grafer  
+![]({{site.baseurl}}/img/graf.png)    
