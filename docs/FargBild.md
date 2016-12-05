@@ -16,7 +16,7 @@ Komplementfärder får aldrig ta överhand i en layout.
   
 ### Primära färger
   
-| ![]({{site.baseurl}}/img/F17E00.png) | ![]({{site.baseurl}}/img/2B3033.png) | ![]({{site.baseurl}}/img/E9E9E9.png) | ![]({{site.baseurl}}/img/F6F6F6.png) | ![]({{site.baseurl}}/img/FFFFFF.png) |
+| ![]({{site.baseurl}}/img/f17e00.png) | ![]({{site.baseurl}}/img/2b3033.png) | ![]({{site.baseurl}}/img/e9e9e9.png) | ![]({{site.baseurl}}/img/f6f6f6.png) | ![]({{site.baseurl}}/img/ffffff.png) |
 | #F17E00 | #2B3033 | #E9E9E9 | #F6F6F6 | #FFFFFF |
 
 ### Komplementsfärger färger
@@ -26,11 +26,11 @@ Komplementfärder får aldrig ta överhand i en layout.
 
 ### Tilläggsfärger färger
 
-| ![]({{site.baseurl}}/img/D02561.png) | ![]({{site.baseurl}}/img/EC45A7.png) | ![]({{site.baseurl}}/img/633B93.png) | ![]({{site.baseurl}}/img/2269B2.png) | ![]({{site.baseurl}}/img/24BA87.png) | ![]({{site.baseurl}}/img/45A125.png) | ![]({{site.baseurl}}/img/F8D721.png) | ![]({{site.baseurl}}/img/F65720.png) |
+| ![]({{site.baseurl}}/img/d02561.png) | ![]({{site.baseurl}}/img/ec45a7.png) | ![]({{site.baseurl}}/img/633b93.png) | ![]({{site.baseurl}}/img/2269b2.png) | ![]({{site.baseurl}}/img/24ba87.png) | ![]({{site.baseurl}}/img/45a125.png) | ![]({{site.baseurl}}/img/f8d721.png) | ![]({{site.baseurl}}/img/F65720.png) |
 | #D02561 | #EC45A7 | #633B93 | #2269B2 | #24BA87 | #45A125 | #F8D721 | #F65720 |
   
 <br />
-  
+
 ### Användning
 Främst används de primära färgerna, om m an sedan behöver fler färger kan man använda komplementsfärgerna.
 Tilläggsfärger bör endast användas vid tillfällen där komplementfärger inte kan användas, eller redan har använts.
