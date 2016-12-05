@@ -30,6 +30,7 @@ Komplementfärder får aldrig ta överhand i en layout.
 | #D02561 | #EC45A7 | #633B93 | #2269B2 | #24BA87 | #45A125 | #F8D721 | #F65720 |
   
 <br />
+  
 ### Användning
 Främst används de primära färgerna, om m an sedan behöver fler färger kan man använda komplementsfärgerna.
 Tilläggsfärger bör endast användas vid tillfällen där komplementfärger inte kan användas, eller redan har använts.
