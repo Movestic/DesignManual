@@ -26,7 +26,7 @@ Komplementfärder får aldrig ta överhand i en layout.
 
 ### Tilläggsfärger färger
 
-| ![]({{site.baseurl}}/img/d02561.png) | ![]({{site.baseurl}}/img/ec45a7.png) | ![]({{site.baseurl}}/img/633b93.png) | ![]({{site.baseurl}}/img/2269b2.png) | ![]({{site.baseurl}}/img/24ba87.png) | ![]({{site.baseurl}}/img/45a125.png) | ![]({{site.baseurl}}/img/f8d721.png) | ![]({{site.baseurl}}/img/F65720.png) |
+| ![]({{site.baseurl}}/img/d02561.png) | ![]({{site.baseurl}}/img/ec45a7.png) | ![]({{site.baseurl}}/img/633b93.png) | ![]({{site.baseurl}}/img/2269b2.png) | ![]({{site.baseurl}}/img/24ba87.png) | ![]({{site.baseurl}}/img/45a125.png) | ![]({{site.baseurl}}/img/f8d721.png) | ![]({{site.baseurl}}/img/f65720.png) |
 | #D02561 | #EC45A7 | #633B93 | #2269B2 | #24BA87 | #45A125 | #F8D721 | #F65720 |
   
 <br />
