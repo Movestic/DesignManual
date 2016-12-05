@@ -4,16 +4,16 @@ title: 'Färg och bild'
 ---
 
 # Färg och bild
-<br />
+  
 ## Färger
-<br />
+  
 För att säkerställa Movestics identitet är det viktigt att färgerna balanseras rätt. 
 De primära färgerna ska alltid ha ett övertag i fördelning, medan komplementfärger endast skall användas som färgklickar. 
 Komplementfärder får aldrig ta överhand i en layout.
   
 > **OBS! Tilläggsfärger bör endast användas när komplementsfärger inte går att använda och bör användas ytterst sällan**
   
-<br />
+  
 ### Primära färger
   
 | ![]({{site.baseurl}}/img/F17E00.png) | ![]({{site.baseurl}}/img/2B3033.png) | ![]({{site.baseurl}}/img/E9E9E9.png) | ![]({{site.baseurl}}/img/F6F6F6.png) | ![]({{site.baseurl}}/img/FFFFFF.png) |
