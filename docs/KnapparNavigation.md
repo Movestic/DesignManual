@@ -50,8 +50,13 @@ Textlänkar ska vara i orange (#F17E00) och understruket.
 
 Expansionsfält visas med ett plustecken och minustecken. Expansion öppnar mer info på samma sida.
 
-![]({{site.baseurl}}/img/expansion.png)
-![]({{site.baseurl}}/img/multiexpansion.png)
+![]({{site.baseurl}}/img/expansion.png)  
+![]({{site.baseurl}}/img/multiexpansion.png)  
   
-  Om det är en expansion i en expansion är plustecknet grått.
+Om det är en expansion i en expansion är plustecknet grått.
 
+## Pilar  
+
+Pilar används när vi går till ny sida.
+
+![]({{site.baseurl}}/img/pilar.png)  
