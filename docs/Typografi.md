@@ -4,9 +4,9 @@ title: 'Typografi'
 ---
 
 # Typografi  
-<br>    
+  
 ## Typsnitt  
-<br>
+  
 ### Huvudrubrik  
 <img style="float:right" src="{{site.baseurl}}/img/rubrik.png" />
   
