@@ -8,7 +8,7 @@ title: 'Knappar och navigation'
 ## Knappar  
 ![]({{site.baseurl}}/img/buttonsall.png)  
 
-| Typsnitt | Proxima Nova Bold Versaler 12px |
+| Typsnitt | Proxima Nova font-weight:600 Versaler 12px |
 | Opacitet hover | 80% |
 | Opacitet disabled | 40% |
 
