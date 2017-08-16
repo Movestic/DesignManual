@@ -16,12 +16,12 @@ Komplementfärder får aldrig ta överhand i en layout.
   
 ### Primära färger
   
-| ![](img/f17e00.png) | ![](img/2b3033.png) | ![](img/e9e9e9.png) | ![](img/f6f6f6.png) | ![](img/ffffff.png) |
+| ![](./img/f17e00.png) | ![](./img/2b3033.png) | ![](./img/e9e9e9.png) | ![](./img/f6f6f6.png) | ![](./img/ffffff.png) |
 | #F17E00 | #2B3033 | #E9E9E9 | #F6F6F6 | #FFFFFF |
 
 ### Komplementsfärger färger
   
-| ![](img/1F9CCA.png) | ![](img/91C54D.png) | ![](img/E92E26.png) |
+| ![](./img/1F9CCA.png) | ![](./img/91C54D.png) | ![](./img/E92E26.png) |
 | #1F9CCA | #91C54D | #E92E26 |
 
 ### Tilläggsfärger färger
