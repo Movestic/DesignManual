@@ -3,7 +3,7 @@ layout: movestic
 title: 'Färg och bild'
 ---
 
-# Färg och bild!
+# Färg och bild
   
 ## Färger
   
