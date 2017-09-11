@@ -17,7 +17,7 @@ title: Movestic Styleguide
 email: info@movestic.se
 description: > # this means to ignore newlines until "baseurl:"
   Det här är movestics styleguide.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/DesignManual" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: movestic
 github_username:  movestic
